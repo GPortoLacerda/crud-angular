@@ -2,11 +2,11 @@
 @import '@angular/material/theming';
 @include mat-core();
 
-$custom-app-primary: mat-palette($mat-pink);
-$custom-app-secundary: mat-palette($mat-grey, 800);
+$custom-app-primary: mat-palette($mat-pink, A400);
+$custom-app-secundary: mat-palette($mat-pink,50);
 $custom-app-warn: mat-palette($mat-red);
 
-$custom-theme: mat-dark-theme((
+$custom-theme: mat-light-theme((
   color: (
    primary: $custom-app-primary,
    accent: $custom-app-secundary,
